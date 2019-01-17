@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>About Us</title>
+   <title>Login Page</title>
 
 </head>
 <body>
    <?php include 'header.php'; ?>
-   <h1>About Us</h1>
-   <p>
-      About Us...
-   </p>
+   <h1>Login</h1>
+   <p>Login Page</p>
 </body>
 </html>
