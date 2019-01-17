@@ -5,6 +5,7 @@
 
    $page = basename($_SERVER['PHP_SELF']);
 
+   '<h1>'
    if ($page == 'homepage.php') {
       echo '<a href = "homepage.php"><b>Home</b></a> -
             <a href = "assignments.php">Assignments</a>';
@@ -13,5 +14,6 @@
       echo '<a href = "homepage.php">Home</a> -
             <a href = "assignments.php"><b>Assignments</b></a>';
    }
+   '</h1>'
 
 ?>
