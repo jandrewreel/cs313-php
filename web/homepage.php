@@ -2,6 +2,7 @@
 <html>
 <head>
    <title>Justin's Homepage</title>
+   <link rel = "stylesheet" type = "text/css" href="home.css">
 </head>
 <body>
    <h1>CS 313</h1>
