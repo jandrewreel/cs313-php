@@ -2,7 +2,6 @@
 <html>
 <head>
    <title>About Us</title>
-
 </head>
 <body>
    <?php include 'header.php'; ?>
