@@ -1,5 +1,5 @@
 <?php
-      if (basename(__FILE__) == 'about-us.php') {
+      if ($_SERVER['PHP_SELF'] == 'about-us.php') {
          echo '<a href = "about-us.php"><b>About Us</b></a> -
          <a href = "home.php">Home</a> -
          <a href = "login.php">Login</a>'
