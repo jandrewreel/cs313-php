@@ -3,7 +3,6 @@
    echo '<h1>CS 313</h1>
          <h2>Web Engineering II</h2>';
 
-
    $page = basename($_SERVER['PHP_SELF']);
 
    if ($page == 'homepage.php') {
