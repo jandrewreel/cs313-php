@@ -6,6 +6,6 @@
 <body>
    <?php include 'header.php'; ?>
    <h1>Home Page</h1>
-   <p>Home page...</p>
+   <p>Welcome, you are not logged in.</p>
 </body>
 </html>
