@@ -13,6 +13,7 @@
          width : 25%;
          float right;
          margin-right: 25px;
+         margin-left: 25px;
       }
    </style>
    <title>Justin's Homepage</title>
