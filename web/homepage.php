@@ -25,9 +25,10 @@
       <h1>About Me</h1>
       <section>
          <p>About me text...</p>
+         <img src="millcreek.jpg">
       </section>
       <aside>
-         <img src="millcreek.jpg">
+
       </aside>
 
    </div>
