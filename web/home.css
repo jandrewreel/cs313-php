@@ -16,7 +16,7 @@ div {
 
 body {
    /*background-color: blue;*/
-   background-image: url("mountain1.jpg");
+   background-image: ("mountain1.jpg");
 }
 
 .css {
