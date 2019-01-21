@@ -6,6 +6,9 @@
          background-image: url("mountain1.jpg");
          background-size: cover;
       }
+      aside {
+         float: right;
+      }
    </style>
    <title>Justin's Homepage</title>
    <link rel = "stylesheet" type = "text/css" href= "home1.css">
@@ -17,8 +20,13 @@
 
    <div>
       <h1>About Me</h1>
-      <p>About me text...</p>
-      <img src="millcreek.jpg">
+      <section>
+         <p>About me text...</p>
+      </section>
+      <aside>
+         <img src="millcreek.jpg">
+      </aside>
+
    </div>
 
 </body>
