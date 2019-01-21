@@ -17,6 +17,8 @@
 
    <div>
       <h1>About Me</h1>
+      <p>About me text...</p>
+      <img src="millcreek.jpg">
    </div>
 
 </body>
