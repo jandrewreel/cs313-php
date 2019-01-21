@@ -12,6 +12,7 @@
       img {
          width : 25%;
          float right;
+         margin-right: 25px;
       }
    </style>
    <title>Justin's Homepage</title>
@@ -26,7 +27,7 @@
       <h1>About Me</h1>
       <section>
          <p>
-            <img src="millcreek.jpg">About me text...
+            About me text...<img src="millcreek.jpg">
          </p>
 
       </section>
