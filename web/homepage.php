@@ -9,9 +9,9 @@
       aside {
          float: right;
       }
-      .image {
+      img {
          width : 25%;
-         float right;
+         float left;
       }
    </style>
    <title>Justin's Homepage</title>
@@ -25,9 +25,8 @@
    <div>
       <h1>About Me</h1>
       <section>
-         <img class="image" src="millcreek.jpg">
-         <p>About me text thei  tioedoi ih fokds igokdsn ou dh g<br>
-            idjfoijdoi  dinofijdoi  dos idjf odj dfjdoijfij  jij<br>
+         <img src="millcreek.jpg">
+         <p>About me text...
          </p>
 
       </section>
