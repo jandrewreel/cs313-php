@@ -16,7 +16,7 @@
    </div>
 
    <div>
-      <h1>About Me</h1>
+      <h1>About Me and you</h1>
    </div>
 
 </body>
