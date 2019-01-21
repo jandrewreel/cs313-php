@@ -11,6 +11,7 @@
       }
       img {
          width : 25%;
+         float right;
       }
    </style>
    <title>Justin's Homepage</title>
