@@ -1,0 +1,25 @@
+h1 {
+   margin-left: 75px;
+   margin-top: 50px;
+}
+
+h2 {
+   margin-left: 200px;
+}
+
+div {
+   background-color: white;
+   margin-left: 200px;
+   margin-right: 200px;
+   border-radius: 25px;
+
+}
+
+body {
+   background-color: green;
+   /*background-image: url("mountain1.jpg");*/
+}
+
+.css {
+   margin-left: 100px;
+}
