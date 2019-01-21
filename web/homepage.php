@@ -9,6 +9,9 @@
       aside {
          float: right;
       }
+      img {
+         width : 25%;
+      }
    </style>
    <title>Justin's Homepage</title>
    <link rel = "stylesheet" type = "text/css" href= "home1.css">
