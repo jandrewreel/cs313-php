@@ -11,7 +11,7 @@
       }
       img {
          width : 25%;
-         float left;
+         float right;
       }
    </style>
    <title>Justin's Homepage</title>
@@ -25,8 +25,8 @@
    <div>
       <h1>About Me</h1>
       <section>
-         <img src="millcreek.jpg">
-         <p>About me text...
+         <p>
+            <img src="millcreek.jpg">About me text...
          </p>
 
       </section>
