@@ -25,8 +25,11 @@
    <div>
       <h1>About Me</h1>
       <section>
-         <p>About me text...</p>
          <img src="millcreek.jpg">
+         <p>About me text thei  tioedoi ih fokds igokdsn ou dh g<br>
+            idjfoijdoi  dinofijdoi  dos idjf odj dfjdoijfij  jij<br>
+         </p>
+
       </section>
       <aside>
 
