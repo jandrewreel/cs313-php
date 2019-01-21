@@ -4,7 +4,7 @@
    <style type="text/css">
       body {
          background-image: url("mountain1.jpg");
-         background-size: auto;
+         background-size: cover;
       }
    </style>
    <title>Justin's Homepage</title>
