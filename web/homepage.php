@@ -15,5 +15,9 @@
       <?php include 'header.php'; ?>
    </div>
 
+   <div>
+      <h1>About Me</h1>
+   </div>
+
 </body>
 </html>
