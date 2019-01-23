@@ -11,12 +11,11 @@
 
    <div>
       <h1>About Me</h1>
-      <section>
          <p>
             About me text...<img src="millcreek.jpg">
          </p>
 
-      </section>
+
 
    </div>
 

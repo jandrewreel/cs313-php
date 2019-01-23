@@ -7,6 +7,10 @@ h2 {
    margin-left: 50px;
 }
 
+p {
+   margin-left: 50px;
+}
+
 div {
    background-color: white;
    margin-left: 200px;
@@ -16,6 +20,7 @@ div {
 
 .test {
    margin-left: 50px;
+   margin-top: 50px;
    float: right;
 }
 
