@@ -36,6 +36,10 @@ img {
    float right;
 }
 
+.dc {
+   margin-left: 50px;
+}
+
 .assignbody {
    background-image: url("computer.jpg");
    background-size: cover;
