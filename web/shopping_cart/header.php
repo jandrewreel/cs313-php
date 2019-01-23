@@ -10,7 +10,7 @@
 
    if ($page == 'cart.php') {
       echo '<a href = "browse.php">Browse</a> -
-            <a href = "cart.php"><b>Shopping Cart</b?</a> -
+            <a href = "cart.php"><b>Shopping Cart</b></a> -
             <a href = "checkout.php>Checkout</a>';
    }
 
