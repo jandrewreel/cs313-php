@@ -10,7 +10,7 @@ h2 {
 p {
    margin-left: 50px;
    margin-right: 50px;
-   font-size: 100%;
+   font-size: 125%;
 }
 
 div {
@@ -37,6 +37,7 @@ img {
 }
 
 .dc {
+   width: 33%
    margin-left: 50px;
 }
 
