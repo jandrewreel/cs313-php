@@ -14,11 +14,7 @@ div {
    border-radius: 25px;
 }
 
-body {
-   background-color: blue;
-   /*background-image: url("mountain1.jpg");*/
-}
-
 .test {
    margin-left: 50px;
+   float: right;
 }
