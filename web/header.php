@@ -1,7 +1,5 @@
 <?php
 
-
-
    $page = basename($_SERVER['PHP_SELF']);
 
    echo '<div class = "test">';
