@@ -15,6 +15,22 @@ div {
 }
 
 .test {
-   margin-left: 500px;
-   color: green;
+   margin-left: 50px;
+}
+
+.homebody {
+   background-image: url("mountain1.jpg");
+   background-size: cover;
+}
+
+img {
+   width : 25%;
+   float right;
+   margin-right: 25px;
+   margin-left: 25px;
+}
+
+.assignbody {
+   background-image: url("computer.jpg");
+   background-size: cover;
 }
