@@ -1,0 +1,36 @@
+h1 {
+   margin-left: 50px;
+   margin-top: 50px;
+}
+
+h2 {
+   margin-left: 50px;
+}
+
+div {
+   background-color: white;
+   margin-left: 200px;
+   margin-right: 200px;
+   border-radius: 25px;
+}
+
+.test {
+   margin-left: 50px;
+}
+
+.homebody {
+   background-image: url("mountain1.jpg");
+   background-size: cover;
+}
+
+img {
+   width : 25%;
+   float right;
+   margin-right: 25px;
+   margin-left: 25px;
+}
+
+.assignbody {
+   background-image: url("computer.jpg");
+   background-size: cover;
+}
