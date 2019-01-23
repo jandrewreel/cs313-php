@@ -10,9 +10,9 @@
    </div>
 
    <div>
-      <h1>About Me</h1>
+      <h1>About Me</h1><img src="millcreek.jpg">
          <p>
-            <img src="millcreek.jpg">
+
             I was born and raised in Salt Lake City, UT. Being raised in Utah I grew up to love the
             mountains surronding Salt Lake City. In the summer time I learned all of the trails that
             Utah's multiple canyons housed.  In the winter I was learned how to ski those same trails.
