@@ -14,7 +14,7 @@
          <p>
             <img src="millcreek.jpg">I was born and raised in Salt Lake City, UT.<br>
             Being raised in Utah I grew up to love the mountains surronding Salt Lake<br>
-            City.  There are so many trails to hike in Utah in the summer.
+            City.  There are so many trails to hike in Utah in the summer.<br>
          </p>
 
 
