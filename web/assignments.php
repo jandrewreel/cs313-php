@@ -2,7 +2,7 @@
 <html>
 <head>
    <title>Assignments</title>
-   <!-- <link rel = "stylesheet" type = "text/css" href= "home1.css"> -->
+   <link rel = "stylesheet" type = "text/css" href= "home1.css">
 </head>
 <body class = "assignbody">
    <div>
