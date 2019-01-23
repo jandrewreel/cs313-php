@@ -38,9 +38,17 @@ img {
    margin-right: 50px;
 }
 
+img:hover {
+   opacity: 0.5;
+}
+
 .dc {
    width: 33%
    margin-left: 50px;
+}
+
+.dc:hover {
+   opacity: 0.5;
 }
 
 .assignbody {
