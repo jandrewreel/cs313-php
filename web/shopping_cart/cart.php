@@ -6,8 +6,8 @@
 </head>
 <body>
    <div class="header">
-      <h2>Shopping Cart</h2>
       <?php include 'header.php'; ?>
+      <h1>Shopping Cart</h1>
    </div>
 </body>
 </html>
