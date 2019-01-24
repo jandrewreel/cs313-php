@@ -2,11 +2,9 @@
 
    $page = basename($_SERVER['PHP_SELF']);
 
-   echo '<h2>Outdoor Co.</h2>';
-
    if ($page == 'browse.php') {
       echo '<ul>
-               <li class ="company">Outdoor Co.</li>
+               <li class="company">Outdoor Co.</li>
                <li><a href = "browse.php"><b>Browse</b></a></li>
                <li><a href = "cart.php">Shopping Cart</a><li>
                <li><a href = "checkout.php">Checkout</a></li>
@@ -15,6 +13,7 @@
 
    if ($page == 'cart.php') {
       echo '<ul>
+               <li class="company">Outdoor Co.</li>
                <li><a href = "browse.php">Browse</a></li>
                <li><a href = "cart.php"><b>Shopping Cart</b></a></li>
                <li><a href = "checkout.php">Checkout</a></li>
@@ -23,6 +22,7 @@
 
    if ($page == 'checkout.php') {
       echo '<ul>
+               <li class="company">Outdoor Co.</li>
                <li><a href = "browse.php">Browse</a></li>
                <li><a href = "cart.php">Shopping Cart</a></li>
                <li><a href = "checkout.php"><b>Checkout</b></a></li>
