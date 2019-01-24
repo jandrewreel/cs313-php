@@ -12,9 +12,8 @@
    }
 
    if ($page == 'cart.php') {
-      echo '<h2>Outdoor Co.</h2>
-            <ul>
-
+      echo '<ul>
+               <li class="company"><b>Outdoor Co.</b></li>
                <li><a href = "browse.php">Browse</a></li>
                <li><a href = "cart.php"><b>Shopping Cart</b></a></li>
                <li><a href = "checkout.php">Checkout</a></li>
