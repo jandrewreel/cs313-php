@@ -6,7 +6,7 @@
 </head>
 <body>
    <div class="header">
-      <h1>Browse Items</h1>
+      <h2>Browse Items</h2>
       <?php include 'header.php'; ?>
    </div>
 </body>

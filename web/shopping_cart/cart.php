@@ -6,7 +6,7 @@
 </head>
 <body>
    <div class="header">
-      <h1>Shopping Cart</h1>
+      <h2>Shopping Cart</h2>
       <?php include 'header.php'; ?>
    </div>
 </body>
