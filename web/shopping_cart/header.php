@@ -2,6 +2,8 @@
 
    $page = basename($_SERVER['PHP_SELF']);
 
+   echo '<div class = "header">';
+
    if ($page == 'browse.php') {
       echo '<a href = "browse.php"><b>Browse</b></a> -
             <a href = "cart.php">Shopping Cart</a> -
@@ -19,5 +21,7 @@
             <a href = "cart.php">Shopping Cart</a> -
             <a href = "checkout.php"><b>Checkout</b></a>';
    }
+
+   echo '</div>';
 
 ?>
