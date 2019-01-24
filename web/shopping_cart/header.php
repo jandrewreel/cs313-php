@@ -2,7 +2,7 @@
 
    $page = basename($_SERVER['PHP_SELF']);
 
-   echo '<h1>Outdoor Co.</h1>';
+   echo '<h2>Outdoor Co.</h2>';
 
    if ($page == 'browse.php') {
       echo '<ul>
