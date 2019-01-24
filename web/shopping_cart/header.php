@@ -3,6 +3,7 @@
    $page = basename($_SERVER['PHP_SELF']);
 
    // echo '<div class = "header">';
+   echo '<h1>Outdoor Co.</h1>';
 
    if ($page == 'browse.php') {
       echo '<a href = "browse.php"><b>Browse</b></a> -
