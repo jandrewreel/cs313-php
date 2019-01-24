@@ -6,6 +6,7 @@
 
    if ($page == 'browse.php') {
       echo '<ul>
+               <li>Outdoor Co.</li>
                <li><a href = "browse.php"><b>Browse</b></a></li>
                <li><a href = "cart.php">Shopping Cart</a><li>
                <li><a href = "checkout.php">Checkout</a></li>
