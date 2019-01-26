@@ -7,7 +7,7 @@
 <body>
    <div class="header">
       <?php include 'header.php'; ?>
-      <div>
+      <div class="logophoto">
          <img src="mountain1.jpg">
       </div>
    </div>
