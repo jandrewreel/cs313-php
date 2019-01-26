@@ -27,7 +27,7 @@
          <h2>Product 3:</h2>
       </div>
    </div>
-      <!-- <div class="row">
+      <div class="row">
          <div class="column">
             <h2>Product 4:</h2>
          </div>
@@ -48,7 +48,7 @@
          <div class="column">
             <h2>Product 9:</h2>
          </div>
-      </div> -->
+      </div>
 
 </body>
 </html>
