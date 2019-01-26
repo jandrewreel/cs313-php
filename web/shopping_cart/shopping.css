@@ -67,8 +67,8 @@ li a {
 .column {
   float: left;
   width: 25%;
-  padding-left: 25px;
-  padding-top: 50px;
+  margin-left: 25px;
+  margin-top: 50px;
   border-style: dashed;
   background-color: white;
 }
@@ -79,8 +79,8 @@ li a {
   clear: both;
 }
 
-/*@media screen and (max-width:600px) {
+@media screen and (max-width:600px) {
   .column {
     width: 100%;
   }
-}*/
+}
