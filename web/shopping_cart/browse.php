@@ -7,25 +7,26 @@
 <body>
    <div class="header">
       <?php include 'header.php'; ?>
-      <div class="logophoto">
-         <img src="mountain1.jpg">
-         <div class="centered"><b>Outdoor Co.</b></div>
+   </div>
+   <div class="logophoto">
+      <img src="mountain1.jpg">
+      <div class="centered"><b>Outdoor Co.</b></div>
+   </div>
+   <hr>
+   <h2>Products:</h2>
+   <hr>
+   <div class="row">
+      <div class="column">
+         <h2>Product 1:</h2>
       </div>
-      <hr>
-      <h2>Products:</h2>
-      <hr>
-      <div class="row">
-         <div class="column">
-            <h2>Product 1:</h2>
-         </div>
-         <div class="column">
-            <h2>Product 2:</h2>
-         </div>
-         <div class="column">
-            <h2>Product 3:</h2>
-         </div>
+      <div class="column">
+         <h2>Product 2:</h2>
       </div>
-      <div class="row">
+      <div class="column">
+         <h2>Product 3:</h2>
+      </div>
+   </div>
+      <!-- <div class="row">
          <div class="column">
             <h2>Product 4:</h2>
          </div>
@@ -46,7 +47,7 @@
          <div class="column">
             <h2>Product 9:</h2>
          </div>
-      </div>
-   </div>
+      </div> -->
+
 </body>
 </html>
