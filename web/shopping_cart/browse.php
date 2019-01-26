@@ -13,7 +13,7 @@
       <div class="centered"><b>Outdoor Co.</b></div>
    </div>
    <hr>
-   <h2>Products:</h2><br>
+   <h1>Products:</h1><br>
    <div class="row">
       <div class="column">
          <h2>Product 1:</h2>
