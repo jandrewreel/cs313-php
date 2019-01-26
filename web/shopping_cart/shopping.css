@@ -63,3 +63,17 @@ li a {
   margin-right: 15px;
   font-size: 18px;
 }
+
+.product1 {
+  margin-left: 50px;
+  border-style: dotted;
+  height: 150px;
+  width: 50%;
+}
+
+.product2 {
+  float: right;
+  border-style: solid;
+  height: 150px;
+  width: 50%;
+}
