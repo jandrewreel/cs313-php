@@ -11,11 +11,10 @@ h2 {
 .logophoto {
   /*margin-left: 50px;
   margin-right: 50px;*/
-  background-color: blue;
   position: relative;
 }
 
-.center {
+.centered {
   position: absolute;
   top: 50%;
   left: 50%;
