@@ -7,7 +7,9 @@
 <body>
    <div class="header">
       <?php include 'header.php'; ?>
-      <h1>Browse Items</h1>
+      <div>
+         <img src="mountain1.jpg">
+      </div>
    </div>
 </body>
 </html>
