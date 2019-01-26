@@ -14,11 +14,38 @@
       <hr>
       <h2>Products:</h2>
       <hr>
-      <div class="product1">
-         <p>Product 1</p>
+      <div class="row">
+         <div class="column">
+            <h2>Product 1:</h2>
+         </div>
+         <div class="column">
+            <h2>Product 2:</h2>
+         </div>
+         <div class="column">
+            <h2>Product 3:</h2>
+         </div>
       </div>
-      <div class="product2">
-         <p>Product 2</p>
+      <div class="row">
+         <div class="column">
+            <h2>Product 4:</h2>
+         </div>
+         <div class="column">
+            <h2>Product 5:</h2>
+         </div>
+         <div class="column">
+            <h2>Product 6:</h2>
+         </div>
+      </div>
+      <div class="row">
+         <div class="column">
+            <h2>Product 7:</h2>
+         </div>
+         <div class="column">
+            <h2>Product 8:</h2>
+         </div>
+         <div class="column">
+            <h2>Product 9:</h2>
+         </div>
       </div>
    </div>
 </body>
