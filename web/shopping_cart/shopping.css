@@ -15,9 +15,9 @@ h2 {
 
 img {
   max-width: 75%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
   border-radius: 25%;
 }
 
