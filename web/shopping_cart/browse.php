@@ -9,7 +9,7 @@
       <?php include 'header.php'; ?>
       <div class="logophoto">
          <img src="mountain1.jpg">
-         <div class="centered">Outdoor Co.</div>
+         <div class="centered"><b>Outdoor Co.</b></div>
       </div>
    </div>
 </body>
