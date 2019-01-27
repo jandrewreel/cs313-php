@@ -23,8 +23,10 @@
       <div class="column">
          <form action="addOn.php" method="post">
             <h2>Product 1:</h2>
-            <?php $product = "product1"; ?>
-            <input type="submit" value="Add to Cart">
+            <?php
+               $product = "product1";
+            ?>
+            <input type="submit" name="Add to Cart">
          </form>
       </div>
       <div class="column">
