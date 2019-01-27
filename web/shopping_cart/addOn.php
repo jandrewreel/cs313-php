@@ -1,5 +1,5 @@
 <?php
-   echo "Value:" . $product;
+   echo "Value: $product";
 
 
 ?>
