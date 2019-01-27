@@ -24,12 +24,13 @@
          <form action="addOn.php" method="post">
             <h2>Product 1:</h2>
             <button>Add to Cart</button>
-            <input type="submit" name="Add to Cart">Add to Cart
+            <input type="submit" value="product1">
          </form>
       </div>
       <div class="column">
          <h2>Product 2:</h2>
          <button>Add to Cart</button>
+         <input type="submit" value="product2">
       </div>
       <div class="column">
          <h2>Product 3:</h2>
