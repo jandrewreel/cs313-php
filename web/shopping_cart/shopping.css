@@ -1,8 +1,3 @@
-/*h2 {
-  color: white;
-  float: left;
-}*/
-
 .header {
   color: white;
   background-color: #339933;
@@ -83,4 +78,8 @@ li a {
   .column {
     width: 100%;
   }
+}
+
+button {
+  margin-left: 50px;
 }
