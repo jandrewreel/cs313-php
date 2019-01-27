@@ -1,3 +1,7 @@
+<?php
+   session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +12,10 @@
    <div class="header">
       <?php include 'header.php'; ?>
       <h1>Shopping Cart</h1>
+      <hr>
+      <?php
+
+      ?>
    </div>
 </body>
 </html>

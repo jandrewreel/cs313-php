@@ -1,3 +1,9 @@
+<?php
+   session_start();
+
+   $cart = array();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,8 +23,11 @@
    <h1>Products:</h1><br>
    <div class="row">
       <div class="column">
-         <h2>Product 1:</h2>
-         <button>Add to Cart</button>
+         <form action="addOn.php" method="post">
+            <h2>Product 1:</h2>
+            <button>Add to Cart</button>
+            <input type="submit" name="Add to Cart">
+         </form>
       </div>
       <div class="column">
          <h2>Product 2:</h2>
