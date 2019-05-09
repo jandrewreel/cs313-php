@@ -26,20 +26,20 @@
    <div class="row">
       <div class="column">
          <h2>Product 1:</h2>
-         <form method="post" action="<?php array_push($_SESSION['cart'], "product1")?>">
+         <form method="post" action="<?php array_push($_SESSION['cart'], "product1"); ?>">
             <input type="submit">
          </form>
       </div>
 
       <div class="column">
          <h2>Product 2:</h2>
-         <form method="post" action="<?php array_push($_SESSION['cart'], "product2")?>">
+         <form method="post" action="<?php array_push($_SESSION['cart'], "product2"); ?>">
             <input type="submit">
       </div>
 
       <div class="column">
          <h2>Product 3:</h2>
-         <form method="post" action="<?php array_push($_SESSION['cart'], "product3")?>">
+         <form method="post" action="<?php array_push($_SESSION['cart'], "product3"); ?>">
             <input type="submit">
       </div>
    </div>
