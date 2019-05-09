@@ -11,7 +11,7 @@
    </div>
 
 
-   <form method = "post" action="<?php session_unset();?>">
+   <form method = "post" action="<?php session_destroy();?>">
       <input type="submit" name="Clear Cart">
    </form>
 </body>
