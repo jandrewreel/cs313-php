@@ -18,7 +18,7 @@
    <div class="row">
       <div class="column">
          <h2>Product 1:</h2>
-         <a href="addOn.php?id=backpack">Add to Cart</a>
+         <a href="addOn.php?id=1">Add to Cart</a>
 
          <!-- Mine -->
          <!-- <form method="get" action="addOn.php?id=backpack"> -->
