@@ -1,13 +1,3 @@
-<?php
-   session_start();
-
-   // if (empty($_SESSION['cart'])) {
-   //    $_SESSION['cart'] = array();
-   // }
-   $_SESSION['cart'] = array();
-
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,10 +18,10 @@
    <div class="row">
       <div class="column">
          <h2>Product 1:</h2>
-         <form method="post" action="addOn.php" id="backpack">
+         <form method="post" action="addOn.php?id=backpack">
             <input type="submit" id="backpack">
          </form>
-         <!-- <form method="post" action="<?php array_push($_SESSION['cart'], "product1"); ?>"> --> -->
+         <!-- <form method="post" action="<?php array_push($_SESSION['cart'], "product1"); ?>"> -->
             <!-- <input type="submit"> -->
          <!-- </form> -->
       </div>
