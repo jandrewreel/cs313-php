@@ -12,7 +12,7 @@
 
 
    <form method = "post" action="<?php session_unset();?>">
-
+      <input type="submit" name="Clear Cart">
    </form>
 </body>
 </html>
