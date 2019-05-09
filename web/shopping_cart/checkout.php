@@ -12,8 +12,8 @@
 
    <a href="confirmation.php">To Confirmation Page
 
-   <!-- <form method = "post" action="<?php session_destroy(); ?>">
+   <form method = "post" action="<?php session_destroy(); ?>">
       <input type="submit" name="Clear Cart">
-   </form> -->
+   </form>
 </body>
 </html>
