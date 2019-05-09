@@ -1,7 +1,3 @@
-<?php
-   session_start();
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,12 +17,9 @@
    <h1>Products:</h1><br>
    <div class="row">
       <div class="column">
+         <h2>Product 1:</h2>
          <form action="addOn.php" method="post">
-            <h2>Product 1:</h2>
-            <?php
-               $product = "product1";
-            ?>
-            <input type="submit" name="Add to Cart">
+            <input type="submit" name="Add to Cart" id = "product1">
          </form>
       </div>
       <div class="column">

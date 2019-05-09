@@ -14,7 +14,7 @@
       <h1>Shopping Cart</h1>
       <hr>
       <?php
-
+         var_dump($_SESSION['cart']);
       ?>
    </div>
 </body>
