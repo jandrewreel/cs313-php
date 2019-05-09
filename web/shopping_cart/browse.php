@@ -4,6 +4,8 @@
    if (empty($_SESSION['cart'])) {
       $_SESSION['cart'] = array();
    }
+
+
 ?>
 
 <!DOCTYPE html>
@@ -26,9 +28,12 @@
    <div class="row">
       <div class="column">
          <h2>Product 1:</h2>
-         <form method="post" action="<?php array_push($_SESSION['cart'], "product1"); ?>">
+         <form method="post" action="addOn.php" id="backpack">
             <input type="submit">
          </form>
+         <!-- <form method="post" action="<?php array_push($_SESSION['cart'], "product1"); ?>"> --> -->
+            <!-- <input type="submit"> -->
+         <!-- </form> -->
       </div>
 
       <div class="column">
