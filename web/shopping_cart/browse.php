@@ -18,7 +18,7 @@
    <div class="row">
       <div class="column">
          <h2>Product 1:</h2>
-         <a href="addOn.php?id=1">Add to Cart</a>
+         <a href="addOn.php?id=backpack">Add to Cart</a>
 
          <!-- Mine -->
          <!-- <form method="get" action="addOn.php?id=backpack"> -->
@@ -34,6 +34,7 @@
 
       <div class="column">
          <h2>Product 2:</h2>
+         <a href="addOn.php?id=waterbottle">Add to Cart</a>
          <!-- <form method="post" action="<?php array_push($_SESSION['cart'], "product2"); ?>"> -->
             <!-- <input type="submit"> -->
          <!-- </form>    -->
