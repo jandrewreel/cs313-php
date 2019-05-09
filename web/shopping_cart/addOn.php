@@ -7,5 +7,5 @@
 
    array_push($_SESSION['cart'], $GET['id']);
 
-   // header('Location: browse.php');
+   header('Location: browse.php');
 ?>
