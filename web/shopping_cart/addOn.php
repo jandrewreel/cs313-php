@@ -6,6 +6,8 @@
    }
 
    array_push($_SESSION['cart'], $GET['id']);
+
+   header('Location: browse.php');
 ?>
 
 <!DOCTYPE html>
