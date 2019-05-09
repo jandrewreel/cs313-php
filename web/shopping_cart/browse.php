@@ -18,12 +18,18 @@
    <div class="row">
       <div class="column">
          <h2>Product 1:</h2>
-         <form method="get" action="addOn.php?id=backpack">
-            <input type="submit">
-         </form>
+         <a href="addOn.php?id=backpack">Add to Cart</a>
+
+         <!-- Mine -->
+         <!-- <form method="get" action="addOn.php?id=backpack"> -->
+            <!-- <input type="submit"> -->
+         <!-- </form> -->
+
+         <!-- Critter's -->
          <!-- <form method="post" action="<?php array_push($_SESSION['cart'], "product1"); ?>"> -->
             <!-- <input type="submit"> -->
          <!-- </form> -->
+
       </div>
 
       <div class="column">
