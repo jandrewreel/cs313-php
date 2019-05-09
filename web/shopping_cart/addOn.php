@@ -14,6 +14,6 @@
    <title>Add On</title>
 </head>
 <body>
-   <a href="cart.php">
+   <a href="cart.php">Link to Cart
 </body>
 </html>
