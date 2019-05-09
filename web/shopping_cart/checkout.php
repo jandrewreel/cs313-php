@@ -9,5 +9,10 @@
       <?php include 'header.php'; ?>
       <h1>Checkout</h1>
    </div>
+
+
+   <form method = "post" action="<?php session_unset();?>">
+
+   </form>
 </body>
 </html>
