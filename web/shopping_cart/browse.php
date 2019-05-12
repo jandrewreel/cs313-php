@@ -14,7 +14,7 @@
    </div>
    <hr>
 
-   <h1 class="products">Products:</h1><br>
+   <h1 class="heading">Products:</h1><br>
    <div class="row">
       <div class="column">
          <h2>Product 1</h2>
