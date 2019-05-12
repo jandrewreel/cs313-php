@@ -17,64 +17,33 @@
    <h1>Products:</h1><br>
    <div class="row">
       <div class="column">
-         <h2>Product 1:</h2>
-         <a href="addOn.php?id=backpack">Add to Cart</a>
-
-         <!-- Mine -->
-         <!-- <form method="get" action="addOn.php?id=backpack"> -->
-            <!-- <input type="submit"> -->
-         <!-- </form> -->
-
-         <!-- Critter's -->
-         <!-- <form method="post" action="<?php array_push($_SESSION['cart'], "product1"); ?>"> -->
-            <!-- <input type="submit"> -->
-         <!-- </form> -->
-
+         <h2>Product 1</h2>
+         <a href="addOn.php?id=product1">Add to Cart</a>
       </div>
 
       <div class="column">
-         <h2>Product 2:</h2>
-         <a href="addOn.php?id=waterbottle">Add to Cart</a>
-         <!-- <form method="post" action="<?php array_push($_SESSION['cart'], "product2"); ?>"> -->
-            <!-- <input type="submit"> -->
-         <!-- </form>    -->
+         <h2>Product 2</h2>
+         <a href="addOn.php?id=product2">Add to Cart</a>
       </div>
 
       <div class="column">
          <h2>Product 3:</h2>
-         <!-- <form method="post" action="<?php array_push($_SESSION['cart'], "product3"); ?>"> -->
-            <!-- <input type="submit"> -->
-         <!-- </form> -->
+         <a href="addOn.php?id=product3">Add to Cart</a>
       </div>
    </div>
 
    <div class="row">
       <div class="column">
          <h2>Product 4:</h2>
-         <button>Add to Cart</button>
+         <a href="addOn.php?id=product4">Add to Cart</a>
       </div>
       <div class="column">
          <h2>Product 5:</h2>
-         <button>Add to Cart</button>
+          <a href="addOn.php?id=product5">Add to Cart</a>
       </div>
       <div class="column">
          <h2>Product 6:</h2>
-         <button>Add to Cart</button>
-      </div>
-   </div>
-
-   <div class="row">
-      <div class="column">
-         <h2>Product 7:</h2>
-         <button>Add to Cart</button>
-      </div>
-      <div class="column">
-         <h2>Product 8:</h2>
-         <button>Add to Cart</button>
-      </div>
-      <div class="column">
-         <h2>Product 9:</h2>
-         <button>Add to Cart</button>
+         <a href="addOn.php?id=product6">Add to Cart</a>
       </div>
    </div>
 

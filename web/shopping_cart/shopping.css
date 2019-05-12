@@ -74,6 +74,11 @@ li a {
   clear: both;
 }
 
+.products {
+  margin-left: 50px;
+  color: white;
+}
+
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
