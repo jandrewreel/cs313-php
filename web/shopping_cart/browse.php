@@ -14,7 +14,7 @@
    </div>
    <hr>
 
-   <h1>Products:</h1><br>
+   <h1 class="products">Products:</h1><br>
    <div class="row">
       <div class="column">
          <h2>Product 1</h2>
@@ -46,6 +46,7 @@
          <a href="addOn.php?id=product6">Add to Cart</a>
       </div>
    </div>
+   <hr>
 
 </body>
 </html>

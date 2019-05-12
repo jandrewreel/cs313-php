@@ -14,6 +14,10 @@
       <h1>Shopping Cart</h1>
       <hr>
       <?php
+         foreach ($_SESSION['cart'] as $value) {
+            echo "$value <br>";
+         }
+
          var_dump($_SESSION['cart']);
       ?>
    </div>
