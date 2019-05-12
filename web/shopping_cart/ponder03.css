@@ -81,8 +81,13 @@ li a {
 
 .cart {
   margin-left: 50px;
-  margin-right: 200px;
-  background-color: #333;
+  margin-right: 150px;
+  background-color: white;
+}
+
+h3{
+  color: black;
+  margin-left: 50px;
 }
 
 @media screen and (max-width:600px) {
