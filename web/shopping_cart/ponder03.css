@@ -82,7 +82,7 @@ li a {
 .cart {
   margin-left: 50px;
   margin-right: 200px;
-  background-color: white;
+  background-color: black;
 }
 
 @media screen and (max-width:600px) {
