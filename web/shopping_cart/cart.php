@@ -16,7 +16,7 @@
       <div class="cart">
          <?php
          foreach ($_SESSION['cart'] as $value) {
-            echo "<h3>$value <button>Remove Item</button> <br></h3>";
+            echo "<h3>$value <button class="rButton">Remove Item</button> <br></h3>";
          }
       ?>
       </div>

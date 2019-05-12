@@ -88,7 +88,10 @@ li a {
 h3{
   color: black;
   margin-left: 50px;
-  margin-right: 50px;
+}
+
+.rButton {
+  margin-left: 50px;
 }
 
 @media screen and (max-width:600px) {
