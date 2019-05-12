@@ -2,7 +2,7 @@
 <html>
 <head>
    <title>Browse Page</title>
-   <link rel="stylesheet" type="text/css" href="shopping.css">
+   <!-- <link rel="stylesheet" type="text/css" href="shopping.css"> -->
 </head>
 <body>
    <div class="header">
