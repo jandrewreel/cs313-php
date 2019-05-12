@@ -1,0 +1,96 @@
+.header {
+  color: white;
+  background-color: #339933;
+}
+
+.logophoto {
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: 450px;
+  border-radius: 5%;
+}
+
+body {
+  background-color: #006600;
+}
+
+li {
+   float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.company {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 40px;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-left: 25px;
+  margin-top: 50px;
+  border-style: dashed;
+  background-color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.heading {
+  margin-left: 50px;
+  color: white;
+}
+
+.cart {
+  margin-left: 50px;
+  margin-right: 200px;
+  background-color: white;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+button {
+  align-content: right;
+}
