@@ -1,12 +1,7 @@
 <?php
-
    require 'connectDb.php';
    $db = get_db();
-
-
 ?>
-
-
 
 <!DOCTYPE html>
 <html>
@@ -20,11 +15,11 @@
 <h1>Insert Scripture</h1>
 
 
-<form>
+<form action = "insert06.php" method="POST">
    <input type="text" name="book">
    <input type="text" name="chapter">
    <input type="text" name="verse">
-   <textarea rows="4" cols="50">Sample Text</textarea>
+   <textarea rows="4" cols="50" name="content">Sample Text</textarea><br>
 
 
    <?php
@@ -37,6 +32,8 @@
          echo "<label for = 'chkTopics$id'>$name</label><br>";
       }
    ?>
+
+   <input type="submit" name="submit">
 
 
 </form>
