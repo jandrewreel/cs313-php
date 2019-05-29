@@ -29,14 +29,13 @@
 
    <?php
       foreach ($db->query('SELECT * FROM topic') as $row) {
-         echo "<input type = 'checkbox' name = '$row['name']' id ='chkTopics$id' value = '$row['id']'>";
 
-         echo "<label for = 'chkTopics$id'> $row['name']</label><br>";
+         $id = $row['id'];
+         $name = $row['name'];
 
+         echo "<input type = 'checkbox' name = '$name' id ='chkTopics$id' value = '$id'>";
+         echo "<label for = 'chkTopics$id'>$name</label><br>";
       }
-
-
-
    ?>
 
 
