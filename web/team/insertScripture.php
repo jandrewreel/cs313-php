@@ -17,7 +17,30 @@
 <body>
 <div>
 
-<h1>Scripture Resources</h1>
+<h1>Insert Scripture</h1>
+
+
+<form>
+   <input type="text" name="book">
+   <input type="text" name="chapter">
+   <input type="text" name="verse">
+   <textarea rows="4" cols="50">Sample Text</textarea>
+
+
+   <?php
+      foreach ($db->query('SELECT * FROM topic') as $row) {
+         echo "<input type = 'checkbox' name = '$row['name']' id ='chkTopics$id' value = '$row['id']'>";
+
+         echo "<label for = 'chkTopics$id'> $row['name']</label><br>";
+
+      }
+
+
+
+   ?>
+
+
+</form>
 
 <?php
 
