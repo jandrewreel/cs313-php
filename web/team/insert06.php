@@ -39,7 +39,7 @@
    }
 
 
-   header("Location: showTopics.php");
+   header("Location: insertScripture.php");
 
    die();
 
