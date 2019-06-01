@@ -25,10 +25,10 @@
    // The variable "row" now holds the complete record for that
    // row, and we can access the different values based on their
    // name
-   $muscle_group = $row['book'];
-   $workout_name = $row['chapter'];
-   $sets = $row['verse'];
-   $reps = $row['content'];
+   $muscle_group = $row['muscle_group'];
+   $workout_name = $row['workout_name'];
+   $sets = $row['sets'];
+   $reps = $row['reps'];
    echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
 
