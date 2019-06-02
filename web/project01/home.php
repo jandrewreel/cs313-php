@@ -10,7 +10,7 @@
    <style type="text/css">
       div {
          float: left;
-         width: 20%;
+         width: 25%;
       }
    </style>
 </head>
@@ -18,11 +18,11 @@
    <h1>Workout Site</h1>
 
 
-   <div>Chest</div>
-   <div>Back</div>
-   <div>Legs</div>
-   <div>Biceps</div>
-   <div>Triceps</div>
+   <div><h2>Chest<h2></div>
+   <div><h2>Back<h2></div>
+   <div><h2>Legs<h2></div>
+   <div><h2>Biceps<h2></div>
+   <div><h2>Arms<h2></div>
 
    <?php
 
