@@ -21,7 +21,6 @@
    <div><h2>Chest<h2></div>
    <div><h2>Back<h2></div>
    <div><h2>Legs<h2></div>
-   <div><h2>Biceps<h2></div>
    <div><h2>Arms<h2></div>
 
    <?php
