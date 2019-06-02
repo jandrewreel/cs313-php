@@ -12,7 +12,7 @@
          margin-left: 100px;
          margin-right: 100px;
       }
-      .column {
+      div {
          float: left;
          width: 25%;
       }
@@ -23,12 +23,12 @@
 <body>
    <h1>Workout Site</h1>
 
-   <div class="column">
-      <div class="chest"><h2>Chest<h2></div>
-      <div class="back"><h2>Back<h2></div>
-      <div class="legs"><h2>Legs<h2></div>
-      <div class="arms"><h2>Arms<h2></div>
-   </div>
+
+   <div><h2>Chest<h2></div>
+   <div><h2>Back<h2></div>
+   <div><h2>Legs<h2></div>
+   <div><h2>Arms<h2></div>
+
 
 
    <?php
