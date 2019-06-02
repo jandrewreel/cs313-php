@@ -7,11 +7,22 @@
 <html>
 <head>
    <title>Home Page</title>
+   <style type="text/css">
+      div {
+         float: left;
+         width: 20%;
+      }
+   </style>
 </head>
 <body>
    <h1>Workout Site</h1>
 
 
+   <div>Chest</div>
+   <div>Back</div>
+   <div>Legs</div>
+   <div>Biceps</div>
+   <div>Triceps</div>
 
    <?php
 
