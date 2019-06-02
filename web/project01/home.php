@@ -9,24 +9,27 @@
    <title>Home Page</title>
    <style type="text/css">
       body {
-         margin-left: 50px;
-         margin-right: 50px;
+         margin-left: 100px;
+         margin-right: 100px;
       }
-      div {
+      .column {
          float: left;
          width: 25%;
       }
+
 
    </style>
 </head>
 <body>
    <h1>Workout Site</h1>
 
+   <div class="column">
+      <div class="chest"><h2>Chest<h2></div>
+      <div class="back"><h2>Back<h2></div>
+      <div class="legs"><h2>Legs<h2></div>
+      <div class="arms"><h2>Arms<h2></div>
+   </div>
 
-   <div><h2>Chest<h2></div>
-   <div><h2>Back<h2></div>
-   <div><h2>Legs<h2></div>
-   <div><h2>Arms<h2></div>
 
    <?php
 
@@ -44,6 +47,9 @@
    $workout_name = $row['workout_name'];
    $sets = $row['sets'];
    $reps = $row['reps'];
+   if ($muscle_group == 'Chest') {
+      echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
+   }
    echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
 
