@@ -8,10 +8,15 @@
 <head>
    <title>Home Page</title>
    <style type="text/css">
+      body {
+         margin-left: 50px;
+         margin-right: 50px;
+      }
       div {
          float: left;
          width: 25%;
       }
+
    </style>
 </head>
 <body>
