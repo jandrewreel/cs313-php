@@ -28,10 +28,11 @@
 
    <?php
 
+   //Prepare and Execute Database
    $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
    $statement->execute();
 
-   //echo '<div><h2>Chest<h2></div>';
+   //Chest Column
    echo '<div><h2>Chest</h2>';
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
@@ -43,13 +44,16 @@
    $sets = $row['sets'];
    $reps = $row['reps'];
 
-   if ($muscle_group == 'Chest') {
+      // if ($muscle_group == 'Chest') {
+      //    echo "<p>$muscle_group $workout_name $sets - \"$reps\"<p>";
+      // }
+
+   }
+   while ($muscle_group == 'Chest') {
       echo "<p>$muscle_group $workout_name $sets - \"$reps\"<p>";
    }
 
 
-   // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
-   }
    echo '</div>';
 
 
