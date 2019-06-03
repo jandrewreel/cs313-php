@@ -1,45 +1,43 @@
 <?php
 
-   $book = $_POST['book'];
-   $chapter = $_POST['chapter'];
-   $verse = $_POST['verse'];
-   $content = $_POST['content'];
-   $topicIds = $_POST['chkTopics'];
-
+   $muscle = $_POST['muscle'];
+   $workoutName = $_POST['workoutName'];
+   $sets = $_POST['sets'];
+   $reps = $_POST['reps'];
 
    require("connectDb.php");
    $db = get_db();
 
 
-   $query = 'INSERT INTO scripture(book, chapter, verse, content) VALUES (:book, :chapter, :verse, :content)';
+   $query = 'INSERT INTO workout(muscle_group, workout_name, sets, reps) VALUES (:muscle, :workoutName, :sets, :reps)';
    $statement = $db->prepare($query);
 
-   $statement->bindValue(':book', $book);
-   $statement->bindValue(':chapter', $chapter);
-   $statement->bindValue(':verse', $verse);
-   $statement->bindValue(':content', $content);
+   $statement->bindValue(':muscle', $muscle);
+   $statement->bindValue(':workoutName', $workoutName);
+   $statement->bindValue(':sets', $sets);
+   $statement->bindValue(':reps', $reps);
 
    $statement->execute();
 
-   $scriptureId = $db->lastInsertId("scripture_id_seq");
+   $workoutId = $db->lastInsertId("workout_id_seq");
 
-   foreach ($topicIds as $topicId) {
+   // foreach ($topicIds as $topicId) {
 
-      echo "ScriptureId: $scriptureId, topicId: $topicId";
+   //    echo "ScriptureId: $scriptureId, topicId: $topicId";
 
-      // Again, first prepare the statement
-      $statement = $db->prepare('INSERT INTO scripture_topic(scriptureId, topicId) VALUES(:scriptureId, :topicId)');
+   //    // Again, first prepare the statement
+   //    $statement = $db->prepare('INSERT INTO scripture_topic(scriptureId, topicId) VALUES(:scriptureId, :topicId)');
 
-      // Then, bind the values
-      $statement->bindValue(':scriptureId', $scriptureId);
-      $statement->bindValue(':topicId', $topicId);
-
-
-      $statement->execute();
-   }
+   //    // Then, bind the values
+   //    $statement->bindValue(':scriptureId', $scriptureId);
+   //    $statement->bindValue(':topicId', $topicId);
 
 
-   header("Location: insertScripture.php");
+   //    $statement->execute();
+   // }
+
+
+   header("Location: home.php");
 
    die();
 
