@@ -127,10 +127,12 @@
 <h2>Create a Workout:</h2><br>
 
 <form action = "insert.php" method="POST">
-   <input type="radio" name="muscle" value="Chest">
-   <input type="radio" name="muscle" value="Back">
-   <input type="radio" name="muscle" value="Legs">
-   <input type="radio" name="muscle" value="Arms">
+   <input type="radio" name="muscle" value="Chest">Chest
+   <input type="radio" name="muscle" value="Back">Back
+   <input type="radio" name="muscle" value="Legs">Legs
+   <input type="radio" name="muscle" value="Biceps">Bicep
+   <input type="radio" name="muscle" value="Triceps">Tricep
+   <br>
    <input type="text" name="workoutName">
    <input type="text" name="sets">
    <input type="text" name="reps">
