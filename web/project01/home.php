@@ -23,29 +23,26 @@
 <body>
    <h1>Workout Site</h1>
 
-
-
-
    <?php
+
+   //Chest Column
+   echo '<div><h2>Chest</h2>';
 
    //Prepare and Execute Database
    $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
    $statement->execute();
 
-   //Chest Column
-   echo '<div><h2>Chest</h2>';
+   //Loop through data
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
-   // The variable "row" now holds the complete record for that
-   // row, and we can access the different values based on their
-   // name
-   $muscle_group = $row['muscle_group'];
-   $workout_name = $row['workout_name'];
-   $sets = $row['sets'];
-   $reps = $row['reps'];
+      $muscle_group = $row['muscle_group'];
+      $workout_name = $row['workout_name'];
+      $sets = $row['sets'];
+      $reps = $row['reps'];
 
-      if ($muscle_group == 'Chest') {
-         echo "<p>$muscle_group $workout_name $sets - \"$reps\"<p>";
+      if ($muscle_group == 'Chest')
+      {
+         echo "<p>$muscle_group $workout_name $sets sets - $reps reps<p>";
       }
 
    }
