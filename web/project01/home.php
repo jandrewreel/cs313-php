@@ -24,15 +24,14 @@
    <h1>Workout Site</h1>
 
 
-   <div><h2>Chest<h2></div>
-   <div><h2>Back<h2></div>
-   <div><h2>Legs<h2></div>
-   <div><h2>Arms<h2></div>
+
+
+
+
 
 
 
    <?php
-
 
    $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
    $statement->execute();
@@ -47,11 +46,22 @@
    $workout_name = $row['workout_name'];
    $sets = $row['sets'];
    $reps = $row['reps'];
+
+   echo '<div><h2>Chest<h2></div>';
    if ($muscle_group == 'Chest') {
       echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
+
+
+   echo '<div><h2>Back<h2></div>';
+   echo '<div><h2>Legs<h2></div>';
+   echo '<div><h2>Arms<h2></div>';
+
+
    // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
+
+
 
 ?>
 
