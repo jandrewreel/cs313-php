@@ -47,6 +47,12 @@
    $sets = $row['sets'];
    $reps = $row['reps'];
 
+
+
+
+   // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
+   }
+
    echo '<div><h2>Chest<h2></div>';
    if ($muscle_group == 'Chest') {
       echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
@@ -56,12 +62,6 @@
    echo '<div><h2>Back<h2></div>';
    echo '<div><h2>Legs<h2></div>';
    echo '<div><h2>Arms<h2></div>';
-
-
-   // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
-   }
-
-
 
 ?>
 
