@@ -44,20 +44,21 @@
    $sets = $row['sets'];
    $reps = $row['reps'];
 
-      // if ($muscle_group == 'Chest') {
-      //    echo "<p>$muscle_group $workout_name $sets - \"$reps\"<p>";
-      // }
+      if ($muscle_group == 'Chest') {
+         echo "<p>$muscle_group $workout_name $sets - \"$reps\"<p>";
+      }
 
    }
-   while ($muscle_group == 'Chest') {
-      echo "<p>$muscle_group $workout_name $sets - \"$reps\"<p>";
-   }
+   // while ($muscle_group == 'Chest') {
+   //    echo "<p>$muscle_group $workout_name $sets - \"$reps\"<p>";
+   // }
 
 
    echo '</div>';
 
 
-
+   $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
+   $statement->execute();
    echo '<div><h2>Back</h2>';
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
@@ -93,10 +94,15 @@
    if ($muscle_group == 'Legs') {
       echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
-   echo '</div>';
+
 
    // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
+
+   echo '</div>';
+
+
+
    echo '<div><h2>Arms</h2>';
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
