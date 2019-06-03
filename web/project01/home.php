@@ -50,7 +50,7 @@
    if ($muscle_group == 'Chest') {
       echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
-   echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
+   // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
 
 ?>
