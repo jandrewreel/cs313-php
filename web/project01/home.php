@@ -132,10 +132,10 @@
    <input type="radio" name="muscle" value="Legs">Legs
    <input type="radio" name="muscle" value="Biceps">Bicep
    <input type="radio" name="muscle" value="Triceps">Tricep
-   <br>
-   <input type="text" name="workoutName">
-   <input type="text" name="sets">
-   <input type="text" name="reps">
+   <br><br>
+   Name:<input type="text" name="workoutName">
+   Sets:<input type="text" name="sets">
+   Reps:<input type="text" name="reps">
 
 </body>
 </html>
