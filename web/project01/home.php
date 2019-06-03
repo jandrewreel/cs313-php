@@ -112,11 +112,11 @@
 
       if ($muscle_group == 'Biceps')
       {
-         echo "<p>$workout_name : $sets sets - $reps reps<p>";
+         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
       }
       if ($muscle_group == 'Triceps')
       {
-         echo "<p>$workout_name : $sets sets - $reps reps<p>";
+         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
       }
 
    }
