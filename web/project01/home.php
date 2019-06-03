@@ -42,81 +42,79 @@
 
       if ($muscle_group == 'Chest')
       {
-         echo "<p>$muscle_group $workout_name $sets sets - $reps reps<p>";
+         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
       }
 
    }
-   // while ($muscle_group == 'Chest') {
-   //    echo "<p>$muscle_group $workout_name $sets - \"$reps\"<p>";
-   // }
-
-
    echo '</div>';
 
+   //Back Column
+   echo '<div><h2>Back</h2>';
 
+   //Prepare and Execute Database
    $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
    $statement->execute();
-   echo '<div><h2>Back</h2>';
+
+   //Loop through data
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
-   // The variable "row" now holds the complete record for that
-   // row, and we can access the different values based on their
-   // name
-   $muscle_group = $row['muscle_group'];
-   $workout_name = $row['workout_name'];
-   $sets = $row['sets'];
-   $reps = $row['reps'];
+      $muscle_group = $row['muscle_group'];
+      $workout_name = $row['workout_name'];
+      $sets = $row['sets'];
+      $reps = $row['reps'];
 
-   if ($muscle_group == 'Back') {
-      echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
-   }
+      if ($muscle_group == 'Back')
+      {
+         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
+      }
 
-
-   // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
    echo '</div>';
 
-
+   //Legs Column
    echo '<div><h2>Legs</h2>';
+
+   //Prepare and Execute Database
+   $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
+   $statement->execute();
+
+   //Loop through data
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
-   // The variable "row" now holds the complete record for that
-   // row, and we can access the different values based on their
-   // name
-   $muscle_group = $row['muscle_group'];
-   $workout_name = $row['workout_name'];
-   $sets = $row['sets'];
-   $reps = $row['reps'];
+      $muscle_group = $row['muscle_group'];
+      $workout_name = $row['workout_name'];
+      $sets = $row['sets'];
+      $reps = $row['reps'];
 
-   if ($muscle_group == 'Legs') {
-      echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
+      if ($muscle_group == 'Legs')
+      {
+         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
+      }
+
    }
-
-
-   // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
-   }
-
    echo '</div>';
 
 
-
+   //Arms Column
    echo '<div><h2>Arms</h2>';
+
+   //Prepare and Execute Database
+   $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
+   $statement->execute();
+
+   //Loop through data
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
-   // The variable "row" now holds the complete record for that
-   // row, and we can access the different values based on their
-   // name
-   $muscle_group = $row['muscle_group'];
-   $workout_name = $row['workout_name'];
-   $sets = $row['sets'];
-   $reps = $row['reps'];
+      $muscle_group = $row['muscle_group'];
+      $workout_name = $row['workout_name'];
+      $sets = $row['sets'];
+      $reps = $row['reps'];
 
-   if ($muscle_group == 'Biceps' || 'Triceps') {
-      echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
-   }
+      if ($muscle_group == 'Biceps' || 'Triceps')
+      {
+         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
+      }
 
-
-   // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
    echo '</div>';
 ?>
