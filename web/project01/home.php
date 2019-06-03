@@ -32,7 +32,7 @@
    $statement->execute();
 
    //echo '<div><h2>Chest<h2></div>';
-   echo '<div><h2>Chest<h2>';
+   echo '<div><h2>Chest</h2>';
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
    // The variable "row" now holds the complete record for that
@@ -44,7 +44,7 @@
    $reps = $row['reps'];
 
    if ($muscle_group == 'Chest') {
-      echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
+      echo "<p>$muscle_group $workout_name $sets - \"$reps\"<p>";
    }
 
 
@@ -54,7 +54,7 @@
 
 
 
-   echo '<div><h2>Back<h2></div>';
+   echo '<div><h2>Back</h2>';
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
    // The variable "row" now holds the complete record for that
@@ -65,14 +65,17 @@
    $sets = $row['sets'];
    $reps = $row['reps'];
 
-   if ($muscle_group == 'Chest') {
+   if ($muscle_group == 'Back') {
       echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
 
 
    // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
-   echo '<div><h2>Legs<h2></div>';
+   echo '</div>';
+
+
+   echo '<div><h2>Legs</h2>';
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
    // The variable "row" now holds the complete record for that
@@ -83,14 +86,14 @@
    $sets = $row['sets'];
    $reps = $row['reps'];
 
-   if ($muscle_group == 'Chest') {
+   if ($muscle_group == 'Legs') {
       echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
-
+   echo '</div>';
 
    // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
-   echo '<div><h2>Arms<h2></div>';
+   echo '<div><h2>Arms</h2>';
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
    // The variable "row" now holds the complete record for that
@@ -101,14 +104,14 @@
    $sets = $row['sets'];
    $reps = $row['reps'];
 
-   if ($muscle_group == 'Chest') {
+   if ($muscle_group == 'Biceps' || 'Triceps') {
       echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
 
 
    // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
-
+   echo '</div>';
 ?>
 
 </body>
