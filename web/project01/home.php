@@ -42,7 +42,7 @@
 
       if ($muscle_group == 'Chest')
       {
-         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
+         echo "<p>$workout_name : $sets sets - $reps reps<p>";
       }
 
    }
@@ -65,7 +65,7 @@
 
       if ($muscle_group == 'Back')
       {
-         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
+         echo "<p>$workout_name : $sets sets - $reps reps<p>";
       }
 
    }
@@ -88,7 +88,7 @@
 
       if ($muscle_group == 'Legs')
       {
-         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
+         echo "<p>$workout_name : $sets sets - $reps reps<p>";
       }
 
    }
@@ -112,11 +112,11 @@
 
       if ($muscle_group == 'Biceps')
       {
-         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
+         echo "<p>$workout_name : $sets sets - $reps reps<p>";
       }
       if ($muscle_group == 'Triceps')
       {
-         echo "<p>$muscle_group $workout_name : $sets sets - $reps reps<p>";
+         echo "<p>$workout_name : $sets sets - $reps reps<p>";
       }
 
    }
