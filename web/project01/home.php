@@ -137,5 +137,8 @@
    Sets:<input type="text" name="sets"><br>
    Reps:<input type="text" name="reps"><br>
 
+   <input type="submit" name="submit">
+</form>
+
 </body>
 </html>
