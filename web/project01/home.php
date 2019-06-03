@@ -26,17 +26,13 @@
 
 
 
-
-
-
-
-
    <?php
 
    $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
    $statement->execute();
 
-   echo '<div><h2>Chest<h2></div>';
+   //echo '<div><h2>Chest<h2></div>';
+   echo '<div><h2>Chest<h2>';
    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    {
    // The variable "row" now holds the complete record for that
@@ -54,7 +50,7 @@
 
    // echo "<p><strong>$muscle_group $workout_name $sets</strong> - \"$reps\"<p>";
    }
-
+   echo '</div>';
 
 
 
