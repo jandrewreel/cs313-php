@@ -121,10 +121,11 @@
 
    </div>
 
-<hr>
+
 
 <div class="formStyle">
    <h2>Create a Workout:</h2><br>
+   <hr>
    <form action = "insertDb.php" method="POST">
    <input type="radio" name="muscle" value="Chest">Chest
    <input type="radio" name="muscle" value="Back">Back
