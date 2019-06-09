@@ -2,7 +2,7 @@
 
    $page = basename($_SERVER['PHP_SELF']);
 
-   if ($page == 'browse.php') {
+   if ($page == 'home.php') {
       echo '<ul>
                <li class="company"><b>Outdoor Co.</b></li>
                <li><a href = "browse.php"><b>Browse</b></a></li>
