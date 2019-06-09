@@ -1,5 +1,10 @@
+body {
+   background-color: #696969;
+}
+
+
 .mainBody {
-   background-color: #ccccb3;
+   background-color: #808080;
    margin-left: 100px;
    margin-right: 100px;
 }
