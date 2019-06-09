@@ -20,14 +20,15 @@ body {
 }
 
 .column {
+   background-color: #C0C0C0;
    float: left;
    width: 25%;
 }
 
 .formStyle {
    background-color: #C0C0C0;
-   margin-top: 25px;
+   margin-top: 50px;
    margin-left: 100px;
-   width: 33%;
+   width: 25%;
    float: left;
 }
