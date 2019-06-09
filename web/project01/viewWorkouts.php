@@ -10,12 +10,13 @@
    <link rel="stylesheet" type="text/css" href="p01.css">
 </head>
 <body>
-   <div class="mainBody">
-      <div class="header">
+   <div class="header">
          <?php include 'header.php'; ?>
-      </div>
+   </div>
+
+   <div class="mainBody">
+
       <hr>
-      <br>
    <h1>Workout Site</h1>
 
    <?php
