@@ -158,7 +158,7 @@
       <option value="8">8</option>
    </select>
    <br><br>
-   <input style="text-align: right" type="submit" name="submit">
+   <input type="submit" name="submit">
    </div>
 
 </form>
