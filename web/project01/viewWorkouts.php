@@ -157,13 +157,7 @@
       <option value="7">7</option>
       <option value="8">8</option>
    </select>
-
-
-
-
-   <!-- Sets:<input type="text" name="sets"><br>
-   Reps:<input type="text" name="reps"><br> -->
-
+   <br>
    <input type="submit" name="submit">
    </div>
 

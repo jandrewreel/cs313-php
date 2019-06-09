@@ -29,7 +29,7 @@ body {
 .formStyle {
    background-color: #C0C0C0;
    margin-top: 50px;
-   margin-bottom: 25px;
+   padding-bottom: 25px;
    margin-left: 100px;
    width: 25%;
    float: left;
