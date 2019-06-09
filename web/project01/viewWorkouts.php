@@ -14,7 +14,7 @@
       <div class="header">
          <?php include 'header.php'; ?>
       </div>
-      <hr>
+      <hr style="margin-top: 25px">
    <h1>Workout Site</h1>
 
    <?php
