@@ -21,7 +21,7 @@
 
    $workoutId = $db->lastInsertId("workout_id_seq");
 
-   header("Location: home.php");
+   header("Location: viewWorkouts.php");
 
    die();
 
