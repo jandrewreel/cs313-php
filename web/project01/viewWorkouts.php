@@ -16,8 +16,9 @@
 
    <div class="mainBody">
 
-      <hr>
-   <h1>Workout Site</h1>
+
+   <h1>Workout Exercises:</h1>
+   <hr>
 
    <?php
 
