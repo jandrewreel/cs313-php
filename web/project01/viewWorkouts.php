@@ -12,8 +12,8 @@
 <body>
    <div class="mainBody">
       <div class="header">
-      <?php include 'header.php'; ?>
-   </div>
+         <?php include 'header.php'; ?>
+      </div>
    <h1>Workout Site</h1>
 
    <?php
