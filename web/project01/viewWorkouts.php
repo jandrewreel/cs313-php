@@ -121,11 +121,12 @@
 ?>
 
 <br>
+</div>
+
 <hr>
 
-<h2>Create a Workout:</h2><br>
-
-<form action = "insertDb.php" method="POST">
+<div class="formStyle">
+   <form action = "insertDb.php" method="POST">
    <input type="radio" name="muscle" value="Chest">Chest
    <input type="radio" name="muscle" value="Back">Back
    <input type="radio" name="muscle" value="Legs">Legs
@@ -141,10 +142,17 @@
 
 
 
+</div>
+<h2>Create a Workout:</h2><br>
 
 
 
-   </div>
+
+
+
+
+
+
 
 
 </body>

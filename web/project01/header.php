@@ -6,6 +6,4 @@
    echo '<h1>Workout Tracker</h1>';
    echo '</div>';
 
-
-
 ?>

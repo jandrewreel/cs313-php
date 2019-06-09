@@ -23,3 +23,11 @@ body {
    float: left;
    width: 25%;
 }
+
+.formStyle {
+   background-color: #C0C0C0;
+   margin-top: 25px;
+   margin-left: 100px;
+   width: 33%;
+   float: left;
+}
