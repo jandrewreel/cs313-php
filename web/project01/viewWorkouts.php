@@ -134,7 +134,21 @@
    <input type="radio" name="muscle" value="Triceps">Tricep
    <br><br>
    Workout Name:<input type="text" name="workoutName"><br>
-   Sets:<input type="text" name="sets"><br>
+   Sets:
+   <select>
+      <option name="sets" value="1">1</option>
+      <option name="sets" value="2">2</option>
+      <option name="sets" value="3">3</option>
+      <option name="sets" value="4">4</option>
+      <option name="sets" value="5">5</option>
+      <option name="sets" value="6">6</option>
+      <option name="sets" value="7">7</option>
+      <option name="sets" value="8">8</option>
+   </select>
+
+
+
+   <!-- Sets:<input type="text" name="sets"><br> -->
    Reps:<input type="text" name="reps"><br>
 
    <input type="submit" name="submit">
