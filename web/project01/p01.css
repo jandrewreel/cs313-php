@@ -1,7 +1,10 @@
 body {
-   background-color: #ccccb3;
    margin-left: 100px;
    margin-right: 100px;
+}
+
+.mainBody {
+   background-color: #ccccb3;
 }
 
 div {

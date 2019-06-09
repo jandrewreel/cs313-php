@@ -10,7 +10,8 @@
    <link rel="stylesheet" type="text/css" href="p01.css">
 </head>
 <body>
-   <div class="header">
+   <div class="mainBody">
+      <div class="header">
       <?php include 'header.php'; ?>
    </div>
    <h1>Workout Site</h1>
@@ -132,6 +133,14 @@
 
    <input type="submit" name="submit">
 </form>
+
+
+
+
+
+
+   </div>
+
 
 </body>
 </html>
