@@ -19,7 +19,7 @@
    <?php
 
    //Chest Column
-   echo '<div class='column'><h2>Chest</h2>';
+   echo '<div class="column"><h2>Chest</h2>';
 
    //Prepare and Execute Database
    $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
@@ -42,7 +42,7 @@
    echo '</div>';
 
    //Back Column
-   echo '<div class = 'column'><h2>Back</h2>';
+   echo '<div class = "column"><h2>Back</h2>';
 
    //Prepare and Execute Database
    $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
@@ -65,7 +65,7 @@
    echo '</div>';
 
    //Legs Column
-   echo '<div class='column'><h2>Legs</h2>';
+   echo '<div class="column"><h2>Legs</h2>';
 
    //Prepare and Execute Database
    $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
@@ -89,7 +89,7 @@
 
 
    //Arms Column
-   echo '<div class='column'><h2>Arms</h2>';
+   echo '<div class="column"><h2>Arms</h2>';
 
    //Prepare and Execute Database
    $statement = $db->prepare("SELECT muscle_group, workout_name, sets, reps FROM workout");
