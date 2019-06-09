@@ -122,20 +122,18 @@
 
    </div>
 
-
-
 <div class="formStyle">
    <h2 style="text-align: center">Create a Workout:</h2>
    <hr>
    <div class="content">
-     <form action = "insertDb.php" method="POST">
+   <form action = "insertDb.php" method="POST">
    <input type="radio" name="muscle" value="Chest">Chest
    <input type="radio" name="muscle" value="Back">Back
    <input type="radio" name="muscle" value="Legs">Legs
    <input type="radio" name="muscle" value="Biceps">Bicep
    <input type="radio" name="muscle" value="Triceps">Tricep
    <br><br>
-   Name:<input type="text" name="workoutName"><br>
+   Workout Name:<input type="text" name="workoutName"><br>
    Sets:<input type="text" name="sets"><br>
    Reps:<input type="text" name="reps"><br>
 
