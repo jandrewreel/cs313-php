@@ -21,6 +21,9 @@
    </style>
 </head>
 <body>
+   <div class="header">
+      <?php include 'header.php'; ?>
+   </div>
    <h1>Workout Site</h1>
 
    <?php
@@ -124,6 +127,7 @@
 ?>
 
 <hr>
+
 <h2>Create a Workout:</h2><br>
 
 <form action = "insertDb.php" method="POST">
