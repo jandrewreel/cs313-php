@@ -118,11 +118,6 @@
    ?>
 
    <br>
-
-   </div>
-
-
-
 <div class="formStyle">
    <h2>Create a Workout:</h2><br>
    <hr>
@@ -139,10 +134,12 @@
 
    <input type="submit" name="submit">
 </form>
-
-
-
 </div>
+   </div>
+
+
+
+
 
 </body>
 </html>
