@@ -135,15 +135,15 @@
    <br><br>
    Workout Name:<input type="text" name="workoutName"><br>
    Sets:
-   <select>
-      <option name="sets" value="1">1</option>
-      <option name="sets" value="2">2</option>
-      <option name="sets" value="3">3</option>
-      <option name="sets" value="4">4</option>
-      <option name="sets" value="5">5</option>
-      <option name="sets" value="6">6</option>
-      <option name="sets" value="7">7</option>
-      <option name="sets" value="8">8</option>
+   <select name="sets">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
    </select>
 
 
