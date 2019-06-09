@@ -15,6 +15,7 @@
          <?php include 'header.php'; ?>
       </div>
       <hr>
+      <br>
    <h1>Workout Site</h1>
 
    <?php
