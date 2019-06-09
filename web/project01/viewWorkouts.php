@@ -116,6 +116,7 @@
    echo '</div>';
 ?>
 
+<br>
 <hr>
 
 <h2>Create a Workout:</h2><br>
