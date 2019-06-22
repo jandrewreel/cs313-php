@@ -51,6 +51,6 @@ function computeOperation(response, op, left, right) {
 
    // Render the response, using the EJS page "result.ejs" in the pages directory
    // Makes sure to pass it the parameters we need.
-   response.render('results', params);
+   response.render('views/results', params);
 
 }
