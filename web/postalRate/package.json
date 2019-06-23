@@ -11,5 +11,9 @@
     "url": "https://github.com/jandrewreel/cs313-php/web"
   },
   "author": "Justin Reel",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
 }
