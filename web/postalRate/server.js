@@ -18,7 +18,7 @@ app.listen(port, function() {
   console.log('Node app is running on port', port);
 });
 
-// function handleMath(request, response) {
+function handleMath(request, response) {
 
 //    const mailType = request.query.mailType;
 //    const weight = Number(request.query.weight);
@@ -31,7 +31,7 @@ app.listen(port, function() {
 //    // TODO: Here we should check to make sure we have all the correct parameters
 
 //    //computeOperation(response, mailType, weight);
-// }
+ }
 
 // function computeOperation(response, mailType, weight) {
 

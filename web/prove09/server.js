@@ -15,7 +15,7 @@ app.get('/math', handleMath);
 
 // start the server listening
 app.listen(port, function() {
-  console.log('Node app is running on port', port);
+  console.log('Node app could is running on port', port);
 });
 
 function handleMath(request, response) {
