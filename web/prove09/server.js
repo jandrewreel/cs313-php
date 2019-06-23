@@ -19,20 +19,21 @@ app.listen(port, function() {
 });
 
 function handleMath(request, response) {
+
    const mailType = request.query.mailType;
    const weight = Number(request.query.weight);
 
-   console.log(mailType);
-   console.log(weight);
+   //console.log(mailType);
+   //console.log(weight);
    // TODO: Here we should check to make sure we have all the correct parameters
 
-   //computeOperation(response, mailType, weight);
+   computeOperation(response, mailType, weight);
 }
 
 function computeOperation(response, mailType, weight) {
 
    let result = 0;
-   cosole.log(mailType);
+   //cosole.log(mailType);
 
    // if (mailType == "Letters (Stamped)") {
    //    result = "Stamped Letters";
