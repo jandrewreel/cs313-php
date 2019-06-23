@@ -23,11 +23,14 @@ function handleMath(request, response) {
    const mailType = request.query.mailType;
    const weight = Number(request.query.weight);
 
+   response.write("Mail Type: " + mailType);
+   response.write("Weight: " + weight);
+
    //console.log(mailType);
    //console.log(weight);
    // TODO: Here we should check to make sure we have all the correct parameters
 
-   computeOperation(response, mailType, weight);
+   //computeOperation(response, mailType, weight);
 }
 
 function computeOperation(response, mailType, weight) {
