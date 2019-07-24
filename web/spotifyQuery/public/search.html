@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Search Page</title>
+   <script src="search.js"></script>
+   <script src="server.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="search.css">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+   <div class="query">
+      <h1>Spotify Query</h1><br>
+
+      <div class="querybody">
+         <hr>
+         <div style="text-align: left">
+            <h3>Seach Instructions:</h3>
+            <p>Spotify Query allows you to search Spotify's database of music
+               information.  This query allows for three different types of
+               searches based on the: <b>Artist, Album, Track</b><br>
+               <br>
+               The <b>Artist </b> search will return the amount of followers that the searched
+               artist has on Spotify. To search, enter an artist/band name.<br></p>
+               The <b>Album </b> search will return all of the albums that the searched
+               artist/band has on Spotify. To search, enter and artist/band name.<br></p>
+               The <b>Tracks </b> search will return the names of the tracks of the searched
+               album on Spotify. To search, enter an album title.<br>
+               <br>
+               * Spotify requries the use of a Access Token in order to use their API.
+               The access token can be entered below the search query.  The access token
+               expires after one hour of being issued.  In order to refresh the token click
+               the Refresh Token Button and login in to Spotify to get a new access token.</p>
+         </div>
+         <hr>
+         <div style="text-align: left">
+            <h3>Query:</h3>
+
+            Artist/Album: <input style="margin-left: 25px" type="text" id="song">
+            <br><br>
+
+            Search Type:
+            <select style="margin-left: 32px" id="searchType">
+               <option value="album" selected>Album</option>
+               <option value="artist">Artist</option>
+               <option value="track">Tracks</option>
+            </select>
+            <br><br>
+
+            Access Token: <input style="margin-left: 23px" type="text" id="accessToken">
+            <br><br><br>
+
+            <div style="text-align: center">
+               <button onclick="myFunction()">Refresh Token</button>
+               <button onclick="searchFunction()">Search</button><br>
+            </div>
+
+            <script>
+               function myFunction() {
+                  location.replace("index.html")
+               }
+            </script>
+
+            <hr>
+            <div id="divResults">
+                  <h3>Results:</h3>
+                  <ul id="ulResults"></ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

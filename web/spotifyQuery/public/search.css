@@ -1,0 +1,21 @@
+body {
+   background-color: darkgray;
+}
+.query {
+   display: block;
+   width: 50%;
+   margin-top: 25px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: white;
+   text-align: center;
+   padding-top: 25px;
+   padding-bottom: 100px;
+   border: 25px solid green;
+   border-radius: 50px;
+   }
+.querybody {
+   width: 75%;
+   margin-left: auto;
+   margin-right: auto;
+}

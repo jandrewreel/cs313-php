@@ -1,0 +1,26 @@
+{
+  "name": "spotifyquery",
+  "version": "1.0.0",
+  "description": "Spotify API Query",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jandrewreel/cs313-php.git"
+  },
+  "author": "Justin Reel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jandrewreel/cs313-php/issues"
+  },
+  "homepage": "https://github.com/jandrewreel/cs313-php#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0"
+  }
+}
